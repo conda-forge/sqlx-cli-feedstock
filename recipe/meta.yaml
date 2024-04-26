@@ -9,7 +9,7 @@ source:
   sha256: ec388590cc15232eca9d02356428c0527a6cc599d09136fac46f62116050fe77
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
@@ -26,7 +26,7 @@ test:
   commands:
     - sqlx --version
     - sqlx --help
-    - cargo sqlx --help
+    - cargo sqlx --help  # [build_platform == target_platform]
 
 about:
   home: https://github.com/launchbadge/sqlx
