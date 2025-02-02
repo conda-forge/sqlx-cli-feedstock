@@ -191,4 +191,5 @@ Feedstock Maintainers
 =====================
 
 * [@borchero](https://github.com/borchero/)
+* [@danielnachun](https://github.com/danielnachun/)
 
