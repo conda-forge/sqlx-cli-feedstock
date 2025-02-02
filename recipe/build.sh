@@ -9,6 +9,7 @@ export OPENSSL_DIR=$PREFIX
 
 # build
 cargo install --locked \
+    --bins \
     --no-track \
     --root "$PREFIX" \
     --path sqlx-cli
