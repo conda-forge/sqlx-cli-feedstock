@@ -9,13 +9,12 @@ source:
   sha256: 35b1598670e6701021b2622dbc5e05acaba60ced5285b3fdc97b26910fed4bfb
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - {{ compiler('rust') }}
-    - {{ compiler('c') }}        # [linux]
-    - {{ compiler('m2w64_c') }}  # [win]
+    - {{ compiler('c') }}
     - {{ stdlib('c') }}
     - cargo-bundle-licenses
   host:
@@ -32,7 +31,6 @@ test:
 about:
   home: https://github.com/launchbadge/sqlx
   license: Apache-2.0
-  license_family: Apache
   summary: Command-line utility for SQLx, the Rust SQL toolkit.
   license_file:
     - LICENSE-APACHE
@@ -42,3 +40,4 @@ about:
 extra:
   recipe-maintainers:
     - borchero
+    - danielnachun
