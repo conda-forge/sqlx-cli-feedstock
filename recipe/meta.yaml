@@ -1,4 +1,4 @@
-{% set version = "0.8.3" %}
+{% set version = "0.8.5" %}
 
 package:
   name: sqlx-cli
@@ -6,10 +6,10 @@ package:
 
 source:
   url: https://github.com/launchbadge/sqlx/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: 35b1598670e6701021b2622dbc5e05acaba60ced5285b3fdc97b26910fed4bfb
+  sha256: c6a32bb7d733fd598ba7473da9f82e9971557302e180ca3da0b1e29028dc9027
 
 build:
-  number: 1
+  number: 0
 
 requirements:
   build:
