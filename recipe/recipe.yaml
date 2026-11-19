@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.9.0"
+  version: "0.9.1"
 
 package:
   name: sqlx-cli
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://github.com/launchbadge/sqlx/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: 48eaacc9a800af48c35713d300bc0de0c1e04b84c810b25de1007806fa1d718c
+  sha256: fe9fbc189073157e7e0e3b2804cae6567bd4e5067ee95a828514df27e95c328f
 
 build:
   number: 0
